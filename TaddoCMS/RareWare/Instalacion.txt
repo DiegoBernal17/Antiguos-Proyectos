@@ -1,0 +1,41 @@
+#######################################
+##   RareWare v1.0.2                 ##
+##   By: Leixx                       ##
+##   Compatible con: Phoenix 3.5.5   ##
+#######################################
+
+Gracias por descargar RareWare 1.0.2... 
+
+A continuación verás una detallada guía sobre como instalar/configurar este Add-On:
+
+#################### INSTALACIÓN ####################
+
+1- Tendrás que descomprimir todos los archivos en tu carpeta htdocs (C:\\xampp\htdocs\). Se creará una carpeta con el nombre de: RareWare
+
+2- Inserta este código SQL en tu PhpMyAdmin.
+
+3- Ahora entra a la tienda desde tu URL (http://localhost/RareWare/).
+
+4- Disfruta de la tienda ;)
+
+
+#################### CONFIGURACIÓN ####################
+
+1- Abre el archivo "configuración.php", allí verás varios códigos que deberás editar dependiendo de lo que deseas colocar. Aquí te explico cada una de las variables:
+
+* $rare_c = En esta variable tendrás que colocar el precio del rare en CRÉDITOS.
+* $rare_p = Aquí colocaras el precio en PÍXELES.
+* $rare_i = En esta tendrás que colocar la ID del Furni, más abajo explico como sacarlo.
+* $rare_n = Y en esta el nombre (Sofa Club, Dragón Dorado, etc.. [puede ser cualquier nombre]).
+* $MsjRegalo = Ya que los rares que compras se envian a el usuario como un REGALO, en esta variables tienes que colocar el mensaje que será mostrado en el regalo.
+
+
+#################### AGREGAR NUEVOS FURNI ####################
+
+1- Lo primero que todo es ir a tu PhpMyAdmin, entras a tu base de datos y entras en la tabla "furniture".
+
+2- Aquí tendrás que buscar el Furni que quieras vender en la tienda. Ejm: el nuevo furni coco_throne.
+
+3- Después que lo hayas encontrado deberás de copiar la ID que tiene ese Furni, en mi caso es la 85020. Todo depende de tu base de datos.
+
+4- Ahora ese número (la ID) lo pegaras en la variable $rare_i del archivo de configuración de RareWare.
