@@ -1,0 +1,147 @@
+body {
+	padding: 20px;
+	font-size: 10px;
+	font-family: Verdana;
+}
+
+a {
+	color: #000;
+}
+
+div.MainBox {
+	width: 720px;
+	margin: 0 auto;
+	
+}
+
+div.MainBox > div.top {
+	padding: 20px;
+	overflow: hidden;
+	text-align: right;
+	color: #000;
+}
+
+div.MainBox > div.top > a > img {
+	border:0;
+	float: left;
+}
+
+div.MainBox > div.mid {
+	margin-top: 20px;
+	height: 431px;
+	overflow: hidden;
+}
+
+div.CurrentAvatar {
+	width: 240px;
+	height:130px;
+	margin-right: 50px;
+	border-radius: 10px;
+	margin-top: 40px;
+	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	text-align:center;
+	float:right;
+}
+
+div.AvatarSelection {
+	width: 300px;
+	margin-top: 40px;
+	margin-left: 50px ;
+	border-radius: 10px;
+  	background-color: #fff;
+	border: 1px solid #000;
+	padding: 10px;
+	text-align:center;
+	float:left;
+}
+
+div.AddAvatar {
+	width: 90px;
+  	background-color: #eee;
+	border: 1px solid #000;
+	text-align:center;
+	float:right;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 0 0;
+}
+
+div.AddAvatar:hover {
+	width: 90px;
+  	background-color: #aaa;
+	border: 1px solid #000;
+	text-align:center;
+	float:right;
+	padding:5px 5px 5px 5px;
+	margin:5px 5px 0 0;
+	cursor:pointer;
+}
+
+div.AvatarSelection > .Avatars > img {
+	width: 33px;
+	height: 56px;
+	cursor:pointer;
+}
+
+div.box_header {
+	text-align:center;
+	background: #edede5;
+	padding: 5px;
+	font-weight: bold;
+	margin-bottom: 5px;
+	margin-top: -5px;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+div.CurrentAvatar > div.Mainavatar {
+	text-align: center;
+	width:65px;
+	float:left;
+	margin:0 0 0 0;
+}
+
+div.CurrentAvatar > div.Mainavatar > img {
+	height:110px;
+	width:64px;
+}
+
+div.CurrentAvatar > div.Avatar {
+	width:35px;
+	margin:0 auto 0 5px;
+	float:left;
+}
+
+div.CurrentAvatar > div.LoginButton {
+	background: #33BB11;
+	border:thin black solid;
+	text-align: center;
+	padding:15px 5px 15px 5px;
+	width:160px;
+	float:right;
+	margin:10px 0 10px 0;
+	font-size:14px;
+	font-weight:bold;
+}
+
+div.CurrentAvatar > div.LoginButton:hover {
+	background: #33DD22;
+	border:thin black solid;
+	text-align: center;
+	padding:15px 5px 15px 5px;
+	width:160px;
+	float:right;
+	margin:10px 0 10px 0;
+	font-size:14px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+div.MainBox > div.bot > p {
+	text-align: center;
+}
+
+div.MainBox > div.bot > p.copyright > a, div.MainBox > div.bot > p.copyright {
+	color: #FFF;
+}

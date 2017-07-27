@@ -1,0 +1,129 @@
+.friendbox{
+	height: expression( this.scrollHeight > 332 ? "350px" : "auto" ); 
+    max-height: 350px;
+    overflow:scroll;
+	background-color:#EFEFEF;
+	padding:5px;
+}
+.buttons {
+	border: thin solid #CCC;
+	margin:2px;
+	padding:4px;
+	cursor:pointer;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+.buttons:hover {
+	border: thin solid #999;
+	}
+.report_button {
+
+	color: #F00;
+
+	}
+#topBar,#dragMe{
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #999;
+	margin-bottom: 2px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	}
+
+#topBar:hover,#dragMe:hover{
+	background-color: #EBEBEB;
+	}
+
+
+#draggable { 
+	width:500px;
+	padding: 0.5em;
+	position:absolute;
+	z-index:1000;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; }
+	
+#friendlist { 
+	width:200px;
+	padding: 0.5em;
+	position:absolute;
+	z-index:1000;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px; }
+	
+.read {
+	font-weight: normal;
+	padding: 4px;
+	margin-bottom: 2px;
+	border: 1px solid #999;
+	background-color: #E0E0E0;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.divider {
+	width: 100%;
+	border: 1px solid #CCC;
+}
+.unread {
+	font-weight: bold;
+	padding: 4px;
+	margin-bottom: 2px;
+	border: 1px solid #999;
+	background-color: #FFF;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+.hubba_head{
+	background-position:50% 25%;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	height:35px;
+	float:left;
+	}
+.textbox{
+	font-size:14px;
+	line-height:16px;
+	vertical-align:middle;
+	height:28px;
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	
+	}
+.navigation{
+	background-position:2px 50%;
+	line-height:32px;
+	vertical-align:middle;
+	height:32px;
+	background-color: #E4E4E4;
+	border: 1px solid #999;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	cursor:pointer;
+	}
+.navigation:hover{
+	background-color: #FFF;
+	border: 1px solid #000;	
+	}
+.alert{
+	font-size: 14px;
+	font-weight: normal;
+	background-color: #FFF;
+	border: 1px solid #000;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 4px;
+	margin-bottom: 2px;
+	}
+.NewPM{
+	cursor:pointer;
+	}
